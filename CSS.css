@@ -1,8 +1,9 @@
 .rectangle {
-    height: auto;
-    width: auto;
+    backdrop-filter: blur(6px) saturate(70%);
+    height: fit-content;
+    width:fit-content ;
     color:white;
-    background-color: rgb(77,77,77);
+    background-color: rgba(0, 0, 0, 0.292);
     border-radius:7px;
     display: flex;
     justify-content:center;
@@ -13,4 +14,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 10px solid #ffffff2b;
+    border-radius: 5px;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/f4/d3/4a/f4d34aeea5a70370d9350bb0af4b57d3.jpg");
 }
